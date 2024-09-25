@@ -89,3 +89,12 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
     UpdatecartQuantity();
   });
 });
+
+
+
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".hamburger-icon");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
