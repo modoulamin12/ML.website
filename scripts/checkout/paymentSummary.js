@@ -60,7 +60,8 @@ export function renderPaymentSummary(){
           </div>
 
           <button class="place-order-button button-primary">
-            Place your order
+           <a class"order-button" href="order.html">Place your order</a>
+           
           </button>
   `;
 
